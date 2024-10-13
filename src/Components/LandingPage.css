@@ -1,0 +1,207 @@
+/* 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #6200ea;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+nav ul li {
+  margin: 0 15px;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+  color: #ff6600; 
+}
+
+
+nav ul li.active a {
+  color: #ff6600;
+
+} */
+/* Overall page wrapper */
+/* Overall page wrapper */
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  padding: 0 20px;
+}
+
+/* Main container with shadow and rounded corners */
+.landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+  top: -30px; 
+}
+
+/* Image section styling */
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.landing-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Content section styling */
+.content-section {
+  flex: 2;
+  text-align: left;
+}
+
+.landing-title {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.landing-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+/* Button Styling */
+.login-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.login-button.active {
+  background-color: #28a745;
+}
+
+/* Outlet styling for form rendering */
+.outlet-section {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.outlet-section .form-container {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+  .landing-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .image-section {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .landing-image {
+    width: 150px;
+  }
+
+  .content-section {
+    text-align: center;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .login-button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+/* Additional responsive tweaks for very small devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .landing-title {
+    font-size: 24px;
+  }
+
+  .landing-description {
+    font-size: 14px;
+  }
+
+  .landing-image {
+    width: 120px;
+  }
+
+  .button-group {
+    gap: 8px;
+  }
+
+  .login-button {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}

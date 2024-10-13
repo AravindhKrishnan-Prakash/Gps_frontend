@@ -1,0 +1,99 @@
+.staff-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.staff-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.staff-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.staff-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.staff-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+.staff-form .btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.staff-form button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-generate {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.btn-send {
+  background-color:#45a049;
+  color: #fff;
+}
+
+.btn-modify {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.btn-generate:hover {
+  background-color: #45a049;
+}
+
+.btn-send:hover {
+  background-color: #45a049;
+}
+
+.btn-modify:hover {
+  background-color: #e64a19;
+}
+
+.generated-code {
+  color: #ff5722;
+  font-weight: bold;
+  text-align: center;
+}
+
+.timer {
+  font-size: 18px;
+  color: #d32f2f;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}

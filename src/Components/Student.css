@@ -1,0 +1,108 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .student-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Styling for text input and dropdown (select) fields */
+  .form-group input[type="text"], 
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .form-group select {
+    appearance: none; /* Hides the default dropdown arrow for styling */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path fill="none" stroke="gray" stroke-width="1.5" d="M1 1l4 3 4-3"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 12px;
+  }
+  
+  .form-group select:focus, 
+  .form-group input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Dropdown arrow on hover */
+  .form-group select:hover {
+    border-color: #007bff;
+  }
+  
+  /* Status radio buttons */
+  .status-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .status-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* Location button */
+  .location-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .location-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  .submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+ 

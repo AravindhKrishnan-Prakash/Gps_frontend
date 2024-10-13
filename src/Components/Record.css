@@ -1,0 +1,98 @@
+.record-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .record-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .record-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-view {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-view:hover {
+    background-color: #45a049;
+  }
+  
+  .records-display {
+    margin-top: 30px;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+ 
+  
+  .attendance-table th, .attendance-table td {
+    border: 1px solid #3154d4;
+    padding: 8px;
+  }
+  
+  .attendance-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .attendance-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .status-present {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-doubt {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .status-absent {
+    color: red;
+    font-weight: bold;
+  }
+  .btn-download {
+    background-color: #39acd9;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-download:hover {
+    background-color: #1729ca;
+  }
+  

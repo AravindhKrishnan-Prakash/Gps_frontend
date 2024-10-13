@@ -1,0 +1,45 @@
+/* Container for the form */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for the labels */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for the input elements */
+.form-group input {
+  width: 100%; /* Full width */
+  height: 40px; /* Height */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the button */
+.LoginButton[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.LoginButton[type="submit"]:hover {
+  background-color: #45a049;
+}
