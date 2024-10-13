@@ -51,7 +51,7 @@ const Staff = () => {
     };
 
     try {
-        const response = await axios.post("http://127.0.0.1:8000/api/attendance/record/", formData);
+        const response = await axios.post("https://gps-backend-2.onrender.com/api/attendance/record/", formData);
         console.log("Response:", response.data);
         window.alert("Attendance recorded successfully!");
     } catch (error) {
@@ -83,7 +83,7 @@ const Staff = () => {
     };
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/api/staff/", formData);
+      const response = await axios.post("https://gps-backend-2.onrender.com/api/staff/", formData);
       console.log("Response:", response.data);
       window.alert("Message Successfully Sent!");
     } catch (error) {
