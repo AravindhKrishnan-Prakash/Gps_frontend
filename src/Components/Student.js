@@ -135,7 +135,7 @@ const StudentForm = () => {
     }
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/api/store-student-data/", formData);
+      const response = await axios.post("https://gps-backend-2.onrender.com/api/store-student-data/", formData);
       console.log('Response:', response.data);
       setMessage('Attendance Recorded Successfully!');
       setIsSubmitted(true); // Mark form as submitted
